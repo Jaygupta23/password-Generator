@@ -6,7 +6,6 @@ function App() {
   const [charAllow, setCharAllow] = useState(false);
   const [password, setPassword] = useState("");
   const [clicked, setClicked] = useState(true);
-  const color = "green"
 
   const paswordGenerator = useCallback(() => {
     let pass = "";
