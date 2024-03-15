@@ -33,10 +33,10 @@ const handleCopyToClipboard =useCallback(()=> {
 }, [password])
 
   return (
-    <div className="container">
+    <div className="container p-40">
       <div className="row">
         <div className=" bg-dark text-center col-8 mt-5 py-5 rounded-lg mx-auto">
-          <h1 className="text-white text-4xl mb-4">Password Generator</h1>
+          <h1 className="text-white text-4xl mb-4 pb-2">Password Generator</h1>
           <div className="bg-dark d-flex justify-content-center rounded-2 mx-auto ">
             <input
               type="text"
